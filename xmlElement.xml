@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- An element can contain:
+
+text
+attributes
+other elements
+or a mix of the above
+
+<bookstore>
+    <book category="children">
+      <title>Harry Potter</title>
+      <author>J K. Rowling</author>
+      <year>2005</year>
+      <price>29.99</price>
+    </book>
+    <book category="web">
+      <title>Learning XML</title>
+      <author>Erik T. Ray</author>
+      <year>2003</year>
+      <price>39.95</price>
+    </book>
+  </bookstore> -->
+
+  <!-- Trong ví dụ trên:
+
+<title>, <author>, <year> và <price> có nội dung văn bản vì chúng chứa văn bản (như 29,99).
+
+<bookstore> và <book> có nội dung phần tử , vì chúng chứa các phần tử.
+
+<book> có một thuộc tính (category = "children"). -->
+
+
+<!-- 
+<element></element> xml có thể có phân tử rỗng
+
+<element /> đây là cách viết rút gọn cho thẻ rỗng -->
+
+<!-- Quy tắc đặt tên XML -->
+
+<!-- Các phần tử XML phải tuân theo các quy tắc đặt tên sau:
+
+Tên phần tử có phân biệt chữ hoa chữ thường
+Tên phần tử phải bắt đầu bằng một chữ cái hoặc dấu gạch dưới
+Tên phần tử không được bắt đầu bằng các chữ cái xml (hoặc XML, hoặc Xml, v.v.)
+Tên phần tử có thể chứa các chữ cái, chữ số, dấu gạch ngang, dấu gạch dưới và dấu chấm câu
+Tên phần tử không được chứa khoảng trắng
+Bất kỳ tên nào cũng có thể được sử dụng, không có từ nào được quy định trước (trừ xml). -->
+
+<!-- Tạo các tên mô tả, như sau: <person>, <firstname>, <lastname>.
+
+    Tạo tên ngắn và đơn giản, như sau: <book_title> chứ không phải như thế này: <the_title_of_the_book>.
+    
+    Tránh xa "-". Nếu bạn đặt tên cho một thứ gì đó là "tên", một số phần mềm có thể nghĩ rằng bạn muốn trừ "tên" khỏi "tên".
+    
+    Tránh xa ".". Nếu bạn đặt tên cho đối tượng nào đó là "first.name", một số phần mềm có thể nghĩ rằng "name" là thuộc tính của đối tượng "first".
+    
+    Tránh xa ":". Dấu hai chấm được dành riêng cho không gian tên (nhiều hơn sau).
+    
+    Các chữ cái không phải tiếng Anh như éòá hoàn toàn hợp pháp trong XML, nhưng hãy coi chừng các vấn đề nếu phần mềm của bạn không hỗ trợ chúng. -->
+    
+ 
+    <!-- Kiểu đặt tên
+    Không có kiểu đặt tên nào được xác định cho các phần tử XML. Nhưng đây là một số thường được sử dụng:
+    
+    Phong cách	Thí dụ	Sự miêu tả
+    Chữ thường	<firstname>	Tất cả các chữ cái viết thường
+    Chữ hoa	<FIRSTNAME>	Tất cả các chữ cái viết hoa
+    Gạch dưới	<first_name>	Dấu gạch dưới phân cách các từ
+    Trường hợp Pascal	<Tên đầu tiên>	Viết hoa chữ cái đầu tiên trong mỗi từ
+    Vỏ lạc đà	<firstName>	Viết hoa chữ cái đầu tiên trong mỗi từ ngoại trừ chữ cái đầu tiên -->
+
+<!-- XML có thể mở rộng tùy thích -->

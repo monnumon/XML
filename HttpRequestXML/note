@@ -1,0 +1,6 @@
+Đối tượng XMLHttpRequest là giấc mơ của các nhà phát triển , bởi vì bạn có thể:
+
+Cập nhật trang web mà không cần tải lại trang
+Yêu cầu dữ liệu từ máy chủ - sau khi trang tải xong
+Nhận dữ liệu từ máy chủ - sau khi trang tải xong
+Gửi dữ liệu đến máy chủ - trong nền

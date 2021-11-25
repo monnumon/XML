@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!-- <b><i>This text is bold and italic</b></i>   syntax này sai vì đóng mở không đồng nhất -->
+
+<!-- <p>This is a paragraph.</p> syntax này sai vì cần có 1 thẻ lớn bao cả 2 
+<br/> -->
+
+<!-- <b><i>This text is bold and italic</i></b> đóng mở đúng -->
+
+<!-- <note date="12/11/2007">   xml phải được trích dẫn nếu note không có date = mà chỉ có ngày thì syntax sẽ sai
+    <to>Tove</to>
+    <from>Jani</from>
+  </note> -->
+
+  <!-- <message>salary < 1000</message> lỗi syntax trong xml không hiểu dấu <  -->
+
+  <!-- <message>salary &lt; 1000</message> muốn so sánh thì dùng cách này
+&lt;	<	less than
+&gt;	>	greater than
+&amp;	&	ampersand 
+&apos;	'	apostrophe
+&quot;	"	quotation mark -->
+
+<!-- khoảng cách trong xml chỉ cách một lần 
+<from>Jani                        aaaa</from> => vẫn in ra là Jani aaaa chứ không cách ra nhiều hơn 1 lần -->
+
+

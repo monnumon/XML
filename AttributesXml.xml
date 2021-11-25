@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- <person gender="female">
+    <firstname>Anna</firstname>
+    <lastname>Smith</lastname>
+  </person> -->
+
+  <!-- <person>
+        <gender>female</gender>
+        <firstname>Anna</firstname>
+        <lastname>Smith</lastname>
+    </person> -->
+
+
+    <!-- recommend syntax -->
+
+   <!-- cách viết 1 <note date="2008-01-10">
+                <to>Tove</to>
+                <from>Jani</from>
+               </note> -->
+
+   <!-- cách viết 2 <note>
+                <date>2008-01-10</date>
+                <to>Tove</to>
+                <from>Jani</from>
+              </note> --> 
+    <!-- recommend 
+    <note>
+        <date> 
+          <year>2008</year>
+          <month>01</month>
+          <day>10</day>
+        </date>
+        <to>Tove</to>
+        <from>Jani</from>
+      </note> -->
+<!-- 
+      Một số điều cần cân nhắc khi sử dụng các thuộc tính là:
+
+thuộc tính không được chứa nhiều giá trị (các phần tử có thể)
+thuộc tính không thể chứa cấu trúc cây (các phần tử có thể)
+các thuộc tính không thể mở rộng dễ dàng (đối với những thay đổi trong tương lai) -->
